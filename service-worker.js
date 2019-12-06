@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vladimir-Shtofmakher-3-12-19/precache-manifest.5fbc9d153cd69efb278e15fa2e95d261.js"
+  "/Vladimir-Shtofmakher-3-12-19/precache-manifest.e03fd1f6fe3e8b946191b1f7e6d61352.js"
 );
 
 self.addEventListener('message', (event) => {
