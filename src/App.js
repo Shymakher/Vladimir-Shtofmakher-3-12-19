@@ -51,8 +51,8 @@ function App() {
           <NavBar />
           <div className="container">
             <Switch>
-              <Route exact path="/" component={Main}/>
-              <Route exact path="/favorites" component={Favorites}/>
+              <Route exact path="/Vladimir-Shtofmakher-3-12-19" component={Main}/>
+              <Route exact path="/Vladimir-Shtofmakher-3-12-19/favorites" component={Favorites}/>
             </Switch>
           </div>
         </AppWrapper>
