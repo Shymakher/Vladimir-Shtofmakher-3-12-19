@@ -6,6 +6,7 @@
 .pnp.js
 
 /src/mockData
+.idea/
 
 # testing
 /coverage
