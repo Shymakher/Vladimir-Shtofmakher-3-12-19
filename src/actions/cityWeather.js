@@ -10,7 +10,7 @@ import {
 import axios from 'axios';
 import {API_KEY} from "./constants";
 
-const BASE_CURRENT = 'http://dataservice.accuweather.com/currentconditions/v1/';
+const BASE_CURRENT = 'https://dataservice.accuweather.com/currentconditions/v1/';
 
 export const getCurrentWeather = (cityKey, selectedCity) => async dispatch => {
   try {
@@ -42,7 +42,7 @@ export const getCurrentWeather = (cityKey, selectedCity) => async dispatch => {
   }
 };
 
-const BASE_FIVE_DAYS = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/';
+const BASE_FIVE_DAYS = 'https://dataservice.accuweather.com/forecasts/v1/daily/5day/';
 
 export const getFiveDaysOfDaily = (cityKey) => async dispatch => {
   try {
@@ -73,7 +73,7 @@ export const getFiveDaysOfDaily = (cityKey) => async dispatch => {
   }
 };
 
-const BASE_GEOLOCATION = 'http://dataservice.accuweather.com/locations/v1/cities/geoposition/search';
+const BASE_GEOLOCATION = 'https://dataservice.accuweather.com/locations/v1/cities/geoposition/search';
 
 export const getCityDetailsByGeoposition = (coordinates) => async dispatch => {
   try {

@@ -2,7 +2,7 @@ import {AUTOCOMPLETE_REQUEST, AUTOCOMPLETE_SUCCESS, AUTOCOMPLETE_FAILED} from ".
 import {API_KEY} from "./constants";
 import axios from 'axios';
 
-const BASE_URL = 'http://dataservice.accuweather.com/locations/v1/cities/autocomplete?';
+const BASE_URL = 'https://dataservice.accuweather.com/locations/v1/cities/autocomplete?';
 
 export const getAutocompleteResults = (query) => async dispatch => {
   try {
