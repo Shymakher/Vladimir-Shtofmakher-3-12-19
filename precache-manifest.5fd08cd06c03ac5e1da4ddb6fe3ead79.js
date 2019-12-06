@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "724cf715e2d930a804576358118eff42",
+    "revision": "91846da3dd6d58ace6485cee556f5652",
     "url": "/Vladimir-Shtofmakher-3-12-19/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vladimir-Shtofmakher-3-12-19/static/css/2.f5298653.chunk.css"
   },
   {
-    "revision": "7891ac50ccfdfac6247a",
+    "revision": "d28a73dcf5a905d24a11",
     "url": "/Vladimir-Shtofmakher-3-12-19/static/css/main.322585ee.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vladimir-Shtofmakher-3-12-19/static/js/2.6fe4a74f.chunk.js"
   },
   {
-    "revision": "7891ac50ccfdfac6247a",
-    "url": "/Vladimir-Shtofmakher-3-12-19/static/js/main.55d895f1.chunk.js"
+    "revision": "d28a73dcf5a905d24a11",
+    "url": "/Vladimir-Shtofmakher-3-12-19/static/js/main.8836a987.chunk.js"
   },
   {
     "revision": "eda0cab4f07393614131",
