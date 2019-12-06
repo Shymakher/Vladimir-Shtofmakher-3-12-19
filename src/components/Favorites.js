@@ -8,7 +8,7 @@ const Favorites = ({favorites: {favorites}, settings, getCurrentWeather, getFive
   const getWeather = (key, item) => {
     getCurrentWeather(key, {LocalizedName: item.LocalizedName, Key: item.Key});
     getFiveDaysOfDaily(key);
-    history.push('/');
+    history.push('/Vladimir-Shtofmakher-3-12-19');
   };
 
   return (
