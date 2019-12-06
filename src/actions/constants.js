@@ -1,0 +1,1 @@
+export const API_KEY = 'A5KivHhnXGuyU4upTvhgcqhmLM5C8jGA'; // Accu Weather

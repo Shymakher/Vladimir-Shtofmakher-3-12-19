@@ -1,0 +1,27 @@
+.favorites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  max-width: 75%;
+  margin: 0 auto;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    transition: all ease-in-out .3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    cursor: pointer;
+
+    & > :not(:last-child){
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      transition: all ease-in-out .3s;
+      box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    }
+  }
+}
