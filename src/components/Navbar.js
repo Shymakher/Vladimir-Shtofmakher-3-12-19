@@ -32,8 +32,8 @@ const Navbar = ({cnahgeTemparatureUnit, settings: {unitName, isMetric}}) => {
         <li><span onClick={themeState.toggle}>{themeState.dark ? "Switch to Light Mode" : "Switch to Dark Mode"}</span>
         </li>
         <li>{renderSwitch()}</li>
-        <li><NavLink exact={true} to='/' activeClassName="is-active">Main</NavLink></li>
-        <li><NavLink to='/favorites' activeClassName="is-active">Favorites</NavLink></li>
+        <li><NavLink exact={true} to='/Vladimir-Shtofmakher-3-12-19' activeClassName="is-active">Main</NavLink></li>
+        <li><NavLink to='/Vladimir-Shtofmakher-3-12-19/favorites' activeClassName="is-active">Favorites</NavLink></li>
       </ul>
     </NavbarWrapper>
   );
