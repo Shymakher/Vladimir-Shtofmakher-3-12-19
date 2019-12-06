@@ -1,3 +1,5 @@
+Open https://shymakher.github.io/Vladimir-Shtofmakher-3-12-19/
+
 In the project directory, you can run:
 
 ### `npm start`
